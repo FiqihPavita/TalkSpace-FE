@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const paketKonseling = document.getElementById('layanan').value;
 
         try {
-            fetch('http://localhost:3000/api/konseling/add', {
+            fetch('https://talkspace-be-production.up.railway.app/api/konseling/add', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
